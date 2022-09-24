@@ -1,0 +1,10 @@
+SPICE title card
+
+v1 1 0 dc 15;
+v2 2 1 dc 35;
+r1 2 3 3300;
+r2 3 0 4700;
+
+.dc v1 15 15 1;
+.print dc v(1,2) v(2) i(v1);
+.end;

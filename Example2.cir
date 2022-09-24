@@ -1,7 +1,7 @@
-SPICE title card 
-c1 1 0 47e-6 ic=24 
+SPICE title card
+c1 1 0 47e-6 ic=24
 r1 1 0 2200
- 
-.tran 10m 500m uic 
-.plot tran v(1) 
+
+.tran 10m 500m uic
+.plot tran v(1)
 .end
