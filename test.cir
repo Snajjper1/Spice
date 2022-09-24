@@ -1,10 +1,6 @@
 *My test circuit
 *NetList
 
-v1 1 0 dc 12;
+Vsupply 1 0 dc 12;
 r1 1 2 3k;
 r2 2 3 5k;
-
-.dc v1 12 12 2;
-.print dc i(v1) v(1,2) v(1,0);
-.end;
