@@ -8,4 +8,4 @@ r3 3 0 5k;
 .dc i1 1.5e-3 1.5e-3 1;
 .print dc v(1,2) v(2,3) v(3);
 .print dc v(1,0);
-.end
+.end;
