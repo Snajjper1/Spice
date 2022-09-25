@@ -1,0 +1,11 @@
+*Circuit with 1.2A current source and 3 resistors (1k, 2.2k and 4.7k)
+
+i1 0 1 dc 1.2e-3;
+r1 2 1 1k;
+r2 3 2 2.2k;
+r3 3 0 4.7k
+
+.dc  i1 1.2e-3 1.2e-3 1;
+.print dc v(1,2) v(2,3) v(3);
+.print dc v(1);
+.end;
